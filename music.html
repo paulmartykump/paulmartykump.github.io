@@ -15,182 +15,40 @@
     h1 {
       text-align: center;
     }
-    .category {
+    p {
+      text-align: center;
+    }
+    .link-list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       margin-top: 3rem;
     }
-    .category h2 {
-      margin-bottom: 0.5rem;
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 0.25rem;
+    .link-list a {
+      display: block;
+      margin: 1rem 0;
+      font-size: 1.25rem;
+      text-decoration: none;
+      color: #0066cc;
+      padding: 0.5rem 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      width: fit-content;
     }
-    .track {
-      margin: 1.5rem 0;
-    }
-    .track-title {
-      font-weight: bold;
-      margin-bottom: 0.25rem;
-    }
-    .note {
-      font-style: italic;
-      font-size: 0.9rem;
-      color: #555;
-      margin-bottom: 0.25rem;
-    }
-    audio {
-      width: 100%;
+    .link-list a:hover {
+      background-color: #f0f0f0;
     }
   </style>
 </head>
 <body>
 
   <h1>My Music</h1>
-  <p>Thanks for listening! Below you'll find selections of my music, organized into three styles I love to write in.</p>
+  <p>Thanks for listening! Below you'll find three styles of music I love to write. Click on any to explore.</p>
 
-  <div class="category">
-    <h2>🎸 Electric Guitar</h2>
-
-    <div class="track">
-      <div class="track-title">Plectrum Head</div>
-      <!--<div class="note">Performed by Paul Marty Kump</div>-->
-      <audio controls>
-        <source src="audio/02 Plectrum Head.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
-
-    <div class="track">
-      <div class="track-title">At Least It's Pure</div>
-      <div class="note">Vocals/Lyrics: Brian Koppen</div>
-      <audio controls>
-        <source src="audio/01 At Least Its Pure.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
-  </div>
-
-  <div class="category">
-    <h2>🎼 18th Century Common Practice</h2>
-
-    <div class="track">
-      <div class="track-title">Cloud 9</div>
-      <div class="note">MIDI realization</div>
-      <audio controls>
-        <source src="audio/cloud-9.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
-
-    <div class="track">
-      <div class="track-title">Rock Fugue in A Minor</div>
-      <div class="note">MIDI realization</div>
-      <audio controls>
-        <source src="audio/rock-fugue-in-a-minor.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
-
-    <div class="track">
-      <div class="track-title">Rise-n'-Shine Sonata</div>
-      <div class="note">MIDI realization</div>
-      <audio controls>
-        <source src="audio/rise-n-shine-sonata.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
-  </div>
-
-  <div class="category">
-    <h2>🎤 Vocal / Barbershop</h2>
-
-    <div class="track">
-      <div class="track-title">Gingerbread Hijinks</div>
-      <div class="note">Performed by [Enter Group or Quartet]</div>
-      <audio controls>
-        <source src="audio/gingerbread-hijinks.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
-
-    <div class="track">
-      <div class="track-title">Frosty But Not Frozen</div>
-      <div class="note">Performed by [Enter Group or Quartet]</div>
-      <audio controls>
-        <source src="audio/frosty-but-not-frozen.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
-
-    <div class="track">
-      <div class="track-title">Reindeer Choir</div>
-      <div class="note">Performed by [Enter Group or Quartet]</div>
-      <audio controls>
-        <source src="audio/reindeer-choir.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
-
-    <div class="track">
-      <div class="track-title">Adeline Claus</div>
-      <div class="note">Performed by [Enter Group or Quartet]</div>
-      <audio controls>
-        <source src="audio/adeline-claus.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
-
-    <div class="track">
-      <div class="track-title">It's Christmas Tonight</div>
-      <div class="note">Performed by [Enter Group or Quartet]</div>
-      <audio controls>
-        <source src="audio/its-christmas-tonight.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
-
-    <div class="track">
-      <div class="track-title">Christmas on Tap</div>
-      <div class="note">Performed by [Enter Group or Quartet]</div>
-      <audio controls>
-        <source src="audio/christmas-on-tap.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
-
-    <div class="track">
-      <div class="track-title">No One's Born A Grinch (Parody)</div>
-      <div class="note">Performed by [Enter Group or Quartet]</div>
-      <audio controls>
-        <source src="audio/no-ones-born-a-grinch.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
-
-    <div class="track">
-      <div class="track-title">Bring Christmas</div>
-      <div class="note">Performed by [Enter Group or Quartet]</div>
-      <audio controls>
-        <source src="audio/bring-christmas.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
-
-    <div class="track">
-      <div class="track-title">Elf Carols</div>
-      <div class="note">Performed by [Enter Group or Quartet]</div>
-      <audio controls>
-        <source src="audio/elf-carols.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
-
-    <div class="track">
-      <div class="track-title">Krampus Waltz</div>
-      <div class="note">Performed by [Enter Group or Quartet]</div>
-      <audio controls>
-        <source src="audio/krampus-waltz.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
+  <div class="link-list">
+    <a href="electric-guitar.html">🎸 Electric Guitar</a>
+    <a href="common-practice.html">🎼 18th Century Common Practice-Style</a>
+    <a href="vocal-barbershop.html">🎤 Vocal / Barbershop</a>
   </div>
 
 </body>
